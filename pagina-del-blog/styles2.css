@@ -1,4 +1,4 @@
-/* Reset CSS básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -35,6 +35,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-right: 70px;
 }
 
 nav ul li {
@@ -55,6 +56,19 @@ nav ul li a {
 nav ul li a:hover {
     background-color: white;
     color: #1e3c72;
+}
+.icono p{
+    position: relative;
+    right: 530px;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: rgb(254, 253, 255);
+    box-shadow: rgba(0, 0, 0, 0.6,);
+    
+}
+.my{
+    color: #2350a3;
+    box-shadow: rgba(0, 0, 0, 0.6,10);
 }
 
 .main-section {
@@ -94,6 +108,13 @@ nav ul li a:hover {
     margin-bottom: 10px;
     border: 2px solid #1e3c72;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.article-content img:hover{
+    transform: scale(1.1);
+}
+ .article-content2 img:hover{
+    transform: scale(1.1);
 }
 
 .article-content p, .article-content2 p {
@@ -148,9 +169,50 @@ address {
     color: #f5af19;
 }
 
+.contacto-telefono {
+    position: relative;
+    bottom: 50px;
+    right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin-top: -90px; 
+}
+
+
+.contactos img {
+    width: 46px;
+    margin-right: 10px; 
+}
+
+
+.numero p {
+    margin: 0; 
+    font-size: 1.2em; 
+}
+
+.redes-sociales a {    
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3em;
+}
+
+.Derechos {
+    position: relative;
+    top: 50px;
+    font-size: 1.2em;
+}
+
+.x, .instagram, .facebook {
+    width: 50px;
+    margin-bottom: 14px;
+}
+
 .pie_de_pagina {
+    width: 100%;
     background-color: #1e3c72;
     text-align: center;
-    padding: 20px;
+    padding: 60px;
     color: white;
 }
+

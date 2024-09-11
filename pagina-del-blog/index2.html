@@ -1,101 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="pagina para promocionar zapatos">
-    <meta name="autor" content="Jeisson salinas">
-    <meta name="keywords" content="desarrollo,consultaria,capacitacion, Zapatos Nike">
-    <title>Zapatos Nike</title>
     <link rel="stylesheet" href="styles2.css">
-    <link rel="shortcut icon" href="/favi-icon/favicon-16x16.png" type="image/x-icon">
+    <title>Blog Personal</title>
 </head>
 <body>
     <header>
-        <h1>Blog de primera marca de zapatos</h1>
-    </header>
-    <nav>
-        <div class="icono">
-        <p><span class="my">My</span>Blog</p>
-    </div>
+    <input type="checkbox" id="toggle-menu" class="toggle-menu">
+    <label for="toggle-menu" class="hamburger">&#9776;</label>
+    <nav class="nav">
         <ul>
-            <li><a href="#calidad">Calidad</a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#articulos">Artículos</a></li>
             <li><a href="#contacto">Contacto</a></li>
-            <li><a href="#ventas">Ventas</a></li>
-            <li><a href="#ayuda">Ayuda</a></li>
         </ul>
     </nav>
-    <section class="main-section">
-        <div class="main-content">
-            <article id="calidad" class="article1">
-                <hgroup>
-                    <h1 class="encabezado_article">Zapatos de Calidad</h1>
-                    <h3 class="enc_h3">Nuevo drop</h3>
-                </hgroup> 
-                <div class="article-content">
-                    <time datetime="2019-09-09">Publicado: 09-09-2019</time>
-                    <img src="https://atletismoextremadura.es/wp-content/uploads/2021/05/zapatos-de-nike.jpg" alt="Imagen de zapatos">
-                    <p>Este es el nuevo drop de zapatos con una calidad excelente, 
-                        <small>Tardamos mucho en sacarla pero valió la pena esperar todo este tiempo. 
-                            <strong>Estos solo están disponibles hasta el 31 de julio de 2020. Es muy importante que seas mayor de edad y tengas consideración en esperarnos el tiempo que sea necesario</strong> 
-                        </small> 
-                        eso sería todas las recomendaciones para tu compra.
-                    </p>
-                    <div class="comentario">
-                        <p>Comentarios (0)</p>
-                    </div>
-                </div>
-            </article>
-            <article id="ventas" class="article2">
-                <hgroup>
-                    <h1>Más información</h1>
-                    <h2>Acerca del drop</h2>
-                </hgroup>
-                <div class="article-content2">
-                    <time datetime="09-09-2019">Publicado: 09-09-2019</time>
-                    <img src="https://i.pinimg.com/originals/a6/3d/ff/a63dff33180fbbbcede298f1dd8190e2.jpg" alt="Imagen del drop">
-                    <p>Este nuevo drop traerá unas 400 unidades de zapatos de buena calidad, a un precio favorable. Con este drop esperamos que nuestra empresa se posicione un poco más.</p>
-                    <div class="comentario2">
-                        <p>Comentarios (10)</p>
-                    </div>
-                </div>
-            </article>
+        <div class="hero">
+            <h1>BIENVENIDOS A MI BLOG</h1>
+            <p>Este es un espacio para compartir ideas, experiencias y conocimientos sobre el mundo del desarrollo web.</p>
         </div>
-        <aside class="quotes">
-            <blockquote class="quote" cite="https://www.nike.com/xl/">
-                <h1>Mensaje 1</h1>
-            </blockquote>
-            <blockquote class="quote" cite="https://www.nike.com/xl/">
-                <h1>Mensaje 2</h1>
-            </blockquote>
-        </aside>
+    </header>
+
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="sobre-mi-2">
+            <h2>Sobre Mí</h2>
+            <div class="text">
+        <p>Hola, soy Jeisson, un apasionado por el desarrollo de software. A través de este blog, comparto mis experiencias, proyectos y todo lo que voy aprendiendo en mi camino como desarrollador.</p>
+        </div>
+        <a href="sobre-mi.html">
+        <img src="/imagenes/istockphoto-1351445167-612x612.jpg" alt="Jeisson">
+        </a>
+        </div>
     </section>
-    <footer class="pie_de_pagina">
-        <div class="Derechos">
-            Derechos reservados &copy;2017-2020
-        </div>
-        <div class="redes-sociales">
-            <a href="https://www.instagram.com/">
-                <img class="instagram" src="/imagenes/instagram.png" alt="ig">
-            </a>
-            <a href="https://x.com/">
-                <img class="x" src="/imagenes/logotipos.png" alt="">
-            </a>
-            <a href="https://www.facebook.com/?_rdc=4&_rdr">
-                <img class="facebook" src="/imagenes/social.png" alt="">
-            </a>
-        </div>
-     
-        <div class="contacto-telefono">
-            <div class="contactos">
-                <img src="/imagenes/viber.png" alt="teléfono">
+
+    <section id="articulos" class="articulos">
+        <div class="ultimos-articulos">
+        <h2>Últimos Artículos</h2>
+        <article class="desarrollo">
+            <h3>¿Cómo Empezar en el Desarrollo Web?</h3>
+            <p>Explora los primeros pasos que debes seguir para adentrarte en el mundo del desarrollo web, desde los conceptos básicos hasta las herramientas más populares. <br>Empieza con un lenguaje fácil como Python, usa un editor como Visual Studio Code, y aprende lo básico con ejercicios prácticos. Practica, crea proyectos pequeños y aprende de los errores. <span>¡La constancia es clave!</span></p>
+            <a href="aprende.html">Aqui te explicamos mejor</a>
+        </article>
+        <article class="consejos">
+            <div class="consejo">
+            <h3>Consejos para Aprender Programación</h3>
+            <p>Aprender a programar puede ser un reto, pero con estos consejos ,<br> podrás mejorar tu enfoque y avanzar más rápido.</p>
             </div>
-            <div class="numero">
-                <p>:31020210</p>
+            <div class="lista">
+            <ul>
+                <li><span>Empieza</span>  con lo basico</li>
+                <li><span>Practica</span> a diario</li>
+                <li><span>Resuelve</span> peqeños problemas</li>
+                <li><span>Analiza</span> codigos de otros</li>
+            </ul>
+         </div>
+        </article>
+        </div>
+    </section>
+
+    <footer id="contacto" class="contacto">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre el Blog</h3>
+                <p>Este blog es un lugar para compartir conocimientos y experiencias sobre desarrollo web. ¡Gracias por visitar!</p>
             </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Correo: <a href="mailto:jeisson@trululu.com">jeisson@trululu.com</a></p>
+                <p>Teléfono: +57 123 456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <ul class="social-links">
+                    <li><a href="https://facebook.com/jeisson" class="facebook" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/jeisson" class="twitter" target="_blank">Twitter</a></li>
+                    <li><a href="https://instagram.com/jeisson" class="instagram" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Jeisson Salinas. Todos los derechos reservados.</p>
         </div>
     </footer>
     
-   
+    
+
 </body>
 </html>

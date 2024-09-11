@@ -1,0 +1,212 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #555;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.contenido-principal {
+    padding: 20px;
+}
+
+.introduccion {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.introduccion h2 {
+    color: #555;
+}
+
+.pasos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.paso {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.paso img {
+    width: 150px;
+    border-radius: 6px;
+}
+
+.paso h3 {
+    color: #444;
+    margin-top: 0;
+}
+
+.paso p {
+    margin: 0;
+    color: #555;
+}
+
+.enlace-regreso {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.enlace-regreso:hover {
+    color: #0056b3;
+}
+
+.pie-pagina {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+    width: 100%;
+    bottom: 0;
+}
+@media (max-width: 768px) {
+    .encabezado {
+        background-color: #444;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 5px solid #555;
+    }
+    
+    .encabezado h1 {
+        margin: 0;
+        font-size: 2em;
+    }
+    
+    .contenido-principal {
+        padding: 20px;
+    }
+    
+    .introduccion {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .introduccion h2 {
+        color: #555;
+    }
+    
+    .pasos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .paso {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .paso img {
+        width: 150px;
+        border-radius: 6px;
+    }
+    
+    .paso h3 {
+        color: #444;
+        margin-top: 0;
+    }
+    
+    .paso p {
+        margin: 0;
+        color: #555;
+    }
+    
+    .enlace-regreso {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+        text-decoration: none;
+        color: #007BFF;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    .enlace-regreso:hover {
+        color: #0056b3;
+    }
+    
+    .pie-pagina {
+        margin-top: 20px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    /* Estilos Responsivos */
+    @media (max-width: 768px) {
+        .encabezado {
+            padding: 15px;
+        }
+    
+        .encabezado h1 {
+            font-size: 1.8em;
+        }
+    
+        .introduccion h2 {
+            font-size: 1.5em;
+        }
+    
+        .paso {
+            flex-direction: column; 
+            text-align: center; 
+            gap: 10px; 
+        }
+    
+        .paso img {
+            width: 80%; 
+            max-width: 200px;
+        }
+    
+        .contenido-principal {
+            padding: 10px; 
+        }
+    
+        .enlace-regreso {
+            font-size: 1em; 
+        }
+    
+        .pie-pagina {
+            padding: 8px; 
+        }
+    }
+}
